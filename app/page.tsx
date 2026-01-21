@@ -100,7 +100,7 @@ export default function PawPrintApp() {
       <header className="bg-black text-white p-4 sticky top-0 z-50 flex justify-between items-center shadow-md">
         <div className="flex items-center gap-2" onClick={() => setViewMode('INPUT')}>
            <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-           <h1 className="font-bold text-lg cursor-pointer">Project PawPrint</h1>
+           <h1 className="font-bold text-lg cursor-pointer">LifePawCut</h1>
         </div>
         <div className="flex gap-2">
            <Button variant="secondary" size="sm" className="h-8 text-xs" onClick={() => setViewMode(viewMode === 'INPUT' ? 'DASHBOARD' : 'INPUT')}>
